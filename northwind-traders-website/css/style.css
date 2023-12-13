@@ -1,7 +1,55 @@
-.sub-menu:hover .games-menu {
-    display: block;
+/* Basic styling to enhance the layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
   }
   
-  .sub-menu2:hover .our-pick-menu {
-    display: block;
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .category-section {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .products-section {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  #products-list {
+    margin-top: 10px;
+  }
+  
+  /* Styles can be expanded upon for more sophisticated designs */
+  
